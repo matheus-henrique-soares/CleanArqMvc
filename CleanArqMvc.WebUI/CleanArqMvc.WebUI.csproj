@@ -10,4 +10,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArqMvc.Infra.IoC\CleanArqMvc.Infra.IoC.csproj" />
+  </ItemGroup>
+
 </Project>
